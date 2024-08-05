@@ -6,9 +6,10 @@ pipeline{
         }
     }
     stages{
-        stage("Code"){
+        stage("Clone Code"){
             steps{
                 git url:"https://github.com/pratham-mesh/django-notes-app-jenkins.git",branch:"main"
+                echo "Jenkins file is in sync with pipeline"
                
             }
         }
