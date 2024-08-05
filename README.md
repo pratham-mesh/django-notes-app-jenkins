@@ -1,4 +1,4 @@
-# Simple Notes App for TWS Community for Testing Webhook
+# Simple Notes App for TWS Community for Test webhook
 This is a simple notes app built with React and Django.
 
 ## Requirements
